@@ -9,10 +9,11 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "^5.0.1",
+    "serve": "^14.2.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve build -s -n -L -p $PORT",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
