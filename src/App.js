@@ -15,7 +15,7 @@ function App() {
 
           <div id="name">
             <h1 className="quickFade delayTwo">Antonio Rodriguez Barrientos</h1>
-            <h2 className="quickFade delayThree"></h2>
+           {/*  <h2 className="quickFade delayThree"></h2> */}
           </div>
 
           <div id="contactDetails" className="quickFade delayFour">
