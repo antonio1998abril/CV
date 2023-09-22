@@ -77,7 +77,7 @@ function App() {
             <div className="clear"></div>
           </section>
 
-          <section>
+       {/*    <section>
             <div className="sectionTitle">
               <h1>Personal Projects</h1>
               <b className="git">Github User antonio1998abril </b>
@@ -126,7 +126,7 @@ function App() {
             </div>
 
             <div className="clear"></div>
-          </section>
+          </section> */}
 
           <section>
             <div className="sectionTitle">
