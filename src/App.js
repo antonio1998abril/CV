@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import FOTO from "./FOTO/foto.jpg";
+import PHONE from "./FOTO/cell image.png"
 import GIT from "./FOTO/git.svg";
 import Linkeding from "./FOTO/linkeding.svg";
 
@@ -20,8 +21,9 @@ function App() {
 
           <div id="contactDetails" className="quickFade delayFour">
             <ul>
-              <li>Hotmail : antoniorbx1998@gmail.com</li>
+              <li>Hotmail : <b>antoniorbx1998@gmail.com</b></li>
               <li>Nationality: Mexican, Age:25</li>
+              <li>PHONE: <img src={PHONE} alt="Antonio Rodriguez Barrientos" className="phoneImage" /></li>
             </ul>
           </div>
           <div className="clear"></div>
@@ -61,8 +63,8 @@ function App() {
 
                 <br />
                 <p>
-                  Redux, Css, Git, React, Express, Node, Django, Python, OpenCV,
-                  PostgreSQL,Axios
+                  React, Redux, Css, Git, Express, Node, Django, Python, OpenCV,
+                  PostgreSQL, Axios, Docker, Docker-Compose, Mongo db
                 </p>
               </article>
 
@@ -70,7 +72,7 @@ function App() {
                 <h2>UDG VIRTUAL</h2>
                 <b className="test">1/March/2021 - 29/Aug/2021</b>
                 <br />
-                <p>JavaScript, Css, HTML</p>
+                <p>JavaScript, Css, HTML, Php</p>
               </article>
             </div>
             <br />
